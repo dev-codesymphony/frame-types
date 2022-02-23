@@ -1,8 +1,8 @@
 export interface ILayer {
-    name: string,
-    rarities: {
-        [name: string]: number
-    }
+  name: string;
+  rarities: {
+    [name: string]: number;
+  };
 }
 
-export type IOrderLayers = ILayer[]
+export type IOrderLayers = ILayer[];
