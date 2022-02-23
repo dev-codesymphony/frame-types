@@ -1,3 +1,1 @@
-export interface Test {
-  a: string;
-}
+export type {ILayer, IOrderLayers} from './types/IOrderLayers'
