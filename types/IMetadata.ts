@@ -11,5 +11,6 @@ export interface IMetadata {
   attributes: IAttributes[];
   compiler: string;
   filename: string;
-  filedate: number
+  filedate: number;
+  uuid: string;
 }
